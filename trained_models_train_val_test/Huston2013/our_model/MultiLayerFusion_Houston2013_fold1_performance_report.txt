@@ -1,0 +1,130 @@
+================================================================================
+MULTILAYER FUSION CLASSIFIER PERFORMANCE REPORT
+================================================================================
+
+DATASET AND MODEL INFORMATION
+----------------------------------------
+Dataset: Houston2013
+Number of Classes: 15
+Training Samples per Class: 100
+Validation Samples per Class: 50
+Fold: 1
+Random Seed: 1
+Patch Size: 32
+Batch Size: 32
+Learning Rate: 0.003
+Total Epochs: 100
+Best Epoch: 89
+
+MODEL CONFIGURATION
+----------------------------------------
+Number of Layers: 3
+Use Downsampling: True
+Downsample Method: conv
+Layer Clusters: [50, 25, 15]
+Feature Dimensions: [64, 128, 256]
+HSI Input Channels: 144
+LiDAR Input Channels: 1
+Mamba d_state: 16
+Mamba d_conv: 4
+Mamba expand: 2
+
+TRAINING STATISTICS
+----------------------------------------
+Training Samples: 1500
+Validation Samples: 750
+Test Samples: 12779
+Training Time: 2744.81 seconds (45.75 minutes)
+
+PERFORMANCE METRICS
+----------------------------------------
+Best Training Accuracy: 100.00%
+Best Validation Accuracy: 99.20%
+Test Accuracy at Best Validation: 98.22%
+Overall Accuracy (OA): 0.9815
+Kappa Coefficient: 0.9800
+Average Accuracy (AA): 0.9837
+
+VALIDATION LOSS HISTORY
+----------------------------------------
+Epoch 1: 2.7092
+Epoch 2: 2.7081
+Epoch 3: 2.7081
+Epoch 4: 2.6015
+Epoch 5: 2.8600
+...
+Epoch 96: 0.0507
+Epoch 97: 0.0509
+Epoch 98: 0.0509
+Epoch 99: 0.0505
+Epoch 100: 0.0512
+
+TRAINING ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 6.27%
+Epoch 2: 6.67%
+Epoch 3: 7.27%
+Epoch 4: 9.53%
+Epoch 5: 8.67%
+...
+Epoch 96: 99.87%
+Epoch 97: 99.93%
+Epoch 98: 99.80%
+Epoch 99: 99.87%
+Epoch 100: 99.87%
+
+VALIDATION ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 7.07%
+Epoch 2: 6.67%
+Epoch 3: 10.93%
+Epoch 4: 8.13%
+Epoch 5: 6.67%
+...
+Epoch 96: 98.93%
+Epoch 97: 98.80%
+Epoch 98: 98.80%
+Epoch 99: 98.80%
+Epoch 100: 98.80%
+
+TEST ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 18.89%
+Epoch 2: 41.18%
+Epoch 3: 82.71%
+Epoch 4: 86.24%
+Epoch 5: 91.33%
+Epoch 6: 95.06%
+Epoch 7: 96.32%
+Epoch 8: 97.96%
+Epoch 9: 98.15%
+Epoch 10: 98.22%
+
+CLASS-WISE ACCURACY
+----------------------------------------
+Class 1: 0.9764
+Class 2: 0.9764
+Class 3: 0.9982
+Class 4: 0.9954
+Class 5: 0.9973
+Class 6: 0.9714
+Class 7: 0.9678
+Class 8: 0.9616
+Class 9: 0.9610
+Class 10: 0.9991
+Class 11: 0.9853
+Class 12: 0.9723
+Class 13: 0.9937
+Class 14: 1.0000
+Class 15: 1.0000
+
+SUMMARY
+----------------------------------------
+Model trained successfully on Houston2013 dataset.
+Achieved 100.00% training accuracy, 99.20% validation accuracy and 98.22% test accuracy.
+Overall performance: OA=0.9815, Kappa=0.9800, AA=0.9837
+Training completed in 45.75 minutes.
+
+================================================================================
+END OF REPORT
+================================================================================
