@@ -1,0 +1,126 @@
+================================================================================
+MULTILAYER FUSION CLASSIFIER PERFORMANCE REPORT
+================================================================================
+
+DATASET AND MODEL INFORMATION
+----------------------------------------
+Dataset: MUUFL
+Number of Classes: 11
+Training Samples per Class: 100
+Validation Samples per Class: 50
+Fold: 1
+Random Seed: 1
+Patch Size: 32
+Batch Size: 32
+Learning Rate: 0.003
+Total Epochs: 100
+Best Epoch: 72
+
+MODEL CONFIGURATION
+----------------------------------------
+Number of Layers: 3
+Use Downsampling: True
+Downsample Method: conv
+Layer Clusters: [50, 25, 15]
+Feature Dimensions: [64, 128, 256]
+HSI Input Channels: 64
+LiDAR Input Channels: 2
+Mamba d_state: 16
+Mamba d_conv: 4
+Mamba expand: 2
+
+TRAINING STATISTICS
+----------------------------------------
+Training Samples: 1100
+Validation Samples: 550
+Test Samples: 52037
+Training Time: 3145.33 seconds (52.42 minutes)
+
+PERFORMANCE METRICS
+----------------------------------------
+Best Training Accuracy: 99.91%
+Best Validation Accuracy: 86.91%
+Test Accuracy at Best Validation: 83.03%
+Overall Accuracy (OA): 0.8205
+Kappa Coefficient: 0.7688
+Average Accuracy (AA): 0.8372
+
+VALIDATION LOSS HISTORY
+----------------------------------------
+Epoch 1: 2.3977
+Epoch 2: 2.3979
+Epoch 3: 2.3979
+Epoch 4: 2.3979
+Epoch 5: 2.3864
+...
+Epoch 96: 0.5710
+Epoch 97: 0.5561
+Epoch 98: 0.5723
+Epoch 99: 0.5755
+Epoch 100: 0.5726
+
+TRAINING ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 9.82%
+Epoch 2: 9.09%
+Epoch 3: 9.00%
+Epoch 4: 8.82%
+Epoch 5: 15.27%
+...
+Epoch 96: 99.36%
+Epoch 97: 99.91%
+Epoch 98: 98.91%
+Epoch 99: 99.36%
+Epoch 100: 99.09%
+
+VALIDATION ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 2.00%
+Epoch 2: 9.09%
+Epoch 3: 9.09%
+Epoch 4: 9.09%
+Epoch 5: 17.64%
+...
+Epoch 96: 85.64%
+Epoch 97: 86.18%
+Epoch 98: 86.55%
+Epoch 99: 86.91%
+Epoch 100: 85.82%
+
+TEST ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 7.42%
+Epoch 2: 52.07%
+Epoch 3: 66.08%
+Epoch 4: 77.65%
+Epoch 5: 76.24%
+Epoch 6: 80.79%
+Epoch 7: 82.18%
+Epoch 8: 82.73%
+Epoch 9: 81.75%
+Epoch 10: 83.03%
+
+CLASS-WISE ACCURACY
+----------------------------------------
+Class 1: 0.8464
+Class 2: 0.7944
+Class 3: 0.7141
+Class 4: 0.9445
+Class 5: 0.7407
+Class 6: 0.9747
+Class 7: 0.8728
+Class 8: 0.9179
+Class 9: 0.6332
+Class 10: 0.7879
+Class 11: 0.9832
+
+SUMMARY
+----------------------------------------
+Model trained successfully on MUUFL dataset.
+Achieved 99.91% training accuracy, 86.91% validation accuracy and 83.03% test accuracy.
+Overall performance: OA=0.8205, Kappa=0.7688, AA=0.8372
+Training completed in 52.42 minutes.
+
+================================================================================
+END OF REPORT
+================================================================================

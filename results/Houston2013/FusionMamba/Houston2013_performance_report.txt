@@ -1,0 +1,97 @@
+================================================================================
+SAEID MODEL PERFORMANCE REPORT
+================================================================================
+
+DATASET AND MODEL INFORMATION
+----------------------------------------
+Dataset: Houston2013
+Number of Classes: 15
+Training Samples per Class: 100
+Validation Samples per Class: 50
+Fold: 1
+Random Seed: 1
+Patch Size: 32
+Batch Size: 64
+Learning Rate: 0.001
+Total Epochs: 50
+Best Epoch: 40
+Fusion Weight: 1.0
+Classification Weight: 1.0
+STEM Channels: 64
+HSI Input Channels: 144
+LiDAR Input Channels: 1
+
+TRAINING STATISTICS
+----------------------------------------
+Training Samples: 1500
+Validation Samples: 750
+Test Samples: 12779
+Training Time: 1404.62 seconds (23.41 minutes)
+
+PERFORMANCE METRICS
+----------------------------------------
+Best Training Accuracy: 99.53%
+Best Validation Accuracy: 95.07%
+Test Accuracy at Best Validation: 94.15%
+Overall Accuracy (OA): 0.9411
+Kappa Coefficient: 0.9361
+Average Accuracy (AA): 0.9527
+
+TRAINING ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 17.07%
+Epoch 2: 31.40%
+Epoch 3: 30.67%
+Epoch 4: 35.73%
+Epoch 5: 44.80%
+...
+Epoch 46: 99.13%
+Epoch 47: 99.53%
+Epoch 48: 99.27%
+Epoch 49: 98.73%
+Epoch 50: 99.33%
+
+VALIDATION ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 68.40%
+Epoch 2: 80.80%
+Epoch 3: 89.73%
+Epoch 4: 95.07%
+Epoch 5: 94.00%
+
+TEST ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 64.72%
+Epoch 2: 75.69%
+Epoch 3: 90.05%
+Epoch 4: 94.11%
+Epoch 5: 94.15%
+
+CLASS-WISE ACCURACY
+----------------------------------------
+Class 1: 0.9564
+Class 2: 0.9112
+Class 3: 0.9982
+Class 4: 0.9269
+Class 5: 0.9496
+Class 6: 1.0000
+Class 7: 0.9284
+Class 8: 0.8656
+Class 9: 0.9564
+Class 10: 0.9954
+Class 11: 0.9779
+Class 12: 0.8569
+Class 13: 0.9781
+Class 14: 1.0000
+Class 15: 0.9902
+
+SUMMARY
+----------------------------------------
+Model trained successfully on Houston2013 dataset.
+Achieved 99.53% training accuracy, 95.07% validation accuracy and 94.15% test accuracy.
+Overall performance: OA=0.9411, Kappa=0.9361, AA=0.9527
+Training completed in 23.41 minutes.
+
+================================================================================
+END OF REPORT
+================================================================================

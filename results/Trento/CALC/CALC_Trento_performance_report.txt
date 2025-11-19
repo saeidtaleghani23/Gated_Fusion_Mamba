@@ -1,0 +1,80 @@
+================================================================================
+CALC MODEL PERFORMANCE REPORT
+================================================================================
+
+DATASET AND MODEL INFORMATION
+----------------------------------------
+Dataset: Trento
+Number of Classes: 6
+Training Samples per Class: 100
+Validation Samples per Class: 50
+Fold: 1
+Random Seed: 1
+Patch Size: 16
+Batch Size: 64
+Learning Rate: 0.001
+Total Epochs: 100
+Best Epoch: 50
+
+TRAINING STATISTICS
+----------------------------------------
+Training Samples: 600
+Validation Samples: 300
+Test Samples: 29314
+Training Time: 230.70 seconds (3.84 minutes)
+
+PERFORMANCE METRICS
+----------------------------------------
+Best Validation Accuracy: 1.0000
+Test Accuracy at Best Validation: 0.9981
+Overall Accuracy (OA): 0.9974
+Kappa Coefficient: 0.9966
+Average Accuracy (AA): 0.9958
+
+CLASS-WISE ACCURACY
+----------------------------------------
+Class 1: 0.9995
+Class 2: 0.9909
+Class 3: 1.0000
+Class 4: 1.0000
+Class 5: 1.0000
+Class 6: 0.9841
+
+VALIDATION ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 0.1667
+Epoch 2: 0.2267
+Epoch 3: 0.4733
+Epoch 4: 0.6833
+Epoch 5: 0.9500
+...
+Epoch 96: 0.9333
+Epoch 97: 0.9633
+Epoch 98: 0.9867
+Epoch 99: 0.9067
+Epoch 100: 0.9767
+
+TEST ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 0.3061
+Epoch 2: 0.2202
+Epoch 3: 0.4381
+Epoch 4: 0.5354
+Epoch 5: 0.9799
+...
+Epoch 96: 0.9593
+Epoch 97: 0.9887
+Epoch 98: 0.9957
+Epoch 99: 0.8316
+Epoch 100: 0.9956
+
+SUMMARY
+----------------------------------------
+Model trained successfully on Trento dataset.
+Achieved 1.0000 validation accuracy and 0.9981 test accuracy.
+Overall performance: OA=0.9974, Kappa=0.9966, AA=0.9958
+Training completed in 3.84 minutes.
+
+================================================================================
+END OF REPORT
+================================================================================

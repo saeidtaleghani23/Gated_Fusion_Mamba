@@ -1,0 +1,121 @@
+================================================================================
+MULTILAYER FUSION CLASSIFIER PERFORMANCE REPORT
+================================================================================
+
+DATASET AND MODEL INFORMATION
+----------------------------------------
+Dataset: Trento
+Number of Classes: 6
+Training Samples per Class: 100
+Validation Samples per Class: 50
+Fold: 1
+Random Seed: 1
+Patch Size: 32
+Batch Size: 32
+Learning Rate: 0.003
+Total Epochs: 100
+Best Epoch: 75
+
+MODEL CONFIGURATION
+----------------------------------------
+Number of Layers: 3
+Use Downsampling: True
+Downsample Method: conv
+Layer Clusters: [50, 25, 15]
+Feature Dimensions: [64, 128, 256]
+HSI Input Channels: 63
+LiDAR Input Channels: 1
+Mamba d_state: 16
+Mamba d_conv: 4
+Mamba expand: 2
+
+TRAINING STATISTICS
+----------------------------------------
+Training Samples: 600
+Validation Samples: 300
+Test Samples: 29314
+Training Time: 1709.67 seconds (28.49 minutes)
+
+PERFORMANCE METRICS
+----------------------------------------
+Best Training Accuracy: 100.00%
+Best Validation Accuracy: 99.33%
+Test Accuracy at Best Validation: 99.65%
+Overall Accuracy (OA): 0.9958
+Kappa Coefficient: 0.9944
+Average Accuracy (AA): 0.9925
+
+VALIDATION LOSS HISTORY
+----------------------------------------
+Epoch 1: 1.7919
+Epoch 2: 1.7918
+Epoch 3: 1.7918
+Epoch 4: 1.7918
+Epoch 5: 1.7918
+...
+Epoch 96: 0.0424
+Epoch 97: 0.0303
+Epoch 98: 0.0265
+Epoch 99: 0.0308
+Epoch 100: 0.0346
+
+TRAINING ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 21.33%
+Epoch 2: 13.67%
+Epoch 3: 16.83%
+Epoch 4: 16.00%
+Epoch 5: 18.17%
+...
+Epoch 96: 100.00%
+Epoch 97: 99.83%
+Epoch 98: 100.00%
+Epoch 99: 100.00%
+Epoch 100: 99.67%
+
+VALIDATION ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 16.67%
+Epoch 2: 16.67%
+Epoch 3: 16.67%
+Epoch 4: 16.67%
+Epoch 5: 16.67%
+...
+Epoch 96: 98.67%
+Epoch 97: 99.33%
+Epoch 98: 99.33%
+Epoch 99: 98.67%
+Epoch 100: 99.00%
+
+TEST ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 74.55%
+Epoch 2: 68.21%
+Epoch 3: 91.36%
+Epoch 4: 85.07%
+Epoch 5: 98.52%
+Epoch 6: 97.24%
+Epoch 7: 99.63%
+Epoch 8: 99.39%
+Epoch 9: 99.63%
+Epoch 10: 99.65%
+
+CLASS-WISE ACCURACY
+----------------------------------------
+Class 1: 0.9933
+Class 2: 0.9873
+Class 3: 0.9909
+Class 4: 1.0000
+Class 5: 0.9988
+Class 6: 0.9848
+
+SUMMARY
+----------------------------------------
+Model trained successfully on Trento dataset.
+Achieved 100.00% training accuracy, 99.33% validation accuracy and 99.65% test accuracy.
+Overall performance: OA=0.9958, Kappa=0.9944, AA=0.9925
+Training completed in 28.49 minutes.
+
+================================================================================
+END OF REPORT
+================================================================================

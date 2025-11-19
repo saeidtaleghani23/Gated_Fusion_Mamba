@@ -1,0 +1,85 @@
+================================================================================
+CALC MODEL PERFORMANCE REPORT
+================================================================================
+
+DATASET AND MODEL INFORMATION
+----------------------------------------
+Dataset: MUUFL
+Number of Classes: 11
+Training Samples per Class: 100
+Validation Samples per Class: 50
+Fold: 1
+Random Seed: 1
+Patch Size: 16
+Batch Size: 64
+Learning Rate: 0.001
+Total Epochs: 100
+Best Epoch: 55
+
+TRAINING STATISTICS
+----------------------------------------
+Training Samples: 1100
+Validation Samples: 550
+Test Samples: 52037
+Training Time: 551.25 seconds (9.19 minutes)
+
+PERFORMANCE METRICS
+----------------------------------------
+Best Validation Accuracy: 0.9073
+Test Accuracy at Best Validation: 0.8923
+Overall Accuracy (OA): 0.8890
+Kappa Coefficient: 0.8539
+Average Accuracy (AA): 0.8991
+
+CLASS-WISE ACCURACY
+----------------------------------------
+Class 1: 0.9405
+Class 2: 0.8468
+Class 3: 0.7172
+Class 4: 0.9523
+Class 5: 0.8147
+Class 6: 1.0000
+Class 7: 0.9342
+Class 8: 0.9800
+Class 9: 0.7466
+Class 10: 1.0000
+Class 11: 0.9580
+
+VALIDATION ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 0.0909
+Epoch 2: 0.3018
+Epoch 3: 0.5236
+Epoch 4: 0.6527
+Epoch 5: 0.6818
+...
+Epoch 96: 0.8818
+Epoch 97: 0.8927
+Epoch 98: 0.8927
+Epoch 99: 0.9000
+Epoch 100: 0.8927
+
+TEST ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 0.0322
+Epoch 2: 0.1976
+Epoch 3: 0.4966
+Epoch 4: 0.7049
+Epoch 5: 0.7286
+...
+Epoch 96: 0.8811
+Epoch 97: 0.8665
+Epoch 98: 0.8803
+Epoch 99: 0.8773
+Epoch 100: 0.8825
+
+SUMMARY
+----------------------------------------
+Model trained successfully on MUUFL dataset.
+Achieved 0.9073 validation accuracy and 0.8923 test accuracy.
+Overall performance: OA=0.8890, Kappa=0.8539, AA=0.8991
+Training completed in 9.19 minutes.
+
+================================================================================
+END OF REPORT
+================================================================================

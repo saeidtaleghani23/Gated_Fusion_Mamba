@@ -1,0 +1,24 @@
+{
+  "hsi_channels": 64,
+  "lidar_channels": 2,
+  "feature_dims": [
+    64,
+    128,
+    256
+  ],
+  "num_layers": 3,
+  "num_classes": 11,
+  "use_downsampling": true,
+  "downsample_method": "conv",
+  "layer_clusters": [
+    50,
+    25,
+    15
+  ],
+  "patch_size": 32,
+  "mamba_config": {
+    "d_state": 16,
+    "d_conv": 4,
+    "expand": 2
+  }
+}

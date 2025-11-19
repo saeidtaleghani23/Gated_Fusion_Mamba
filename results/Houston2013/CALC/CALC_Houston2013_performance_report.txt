@@ -1,0 +1,89 @@
+================================================================================
+CALC MODEL PERFORMANCE REPORT
+================================================================================
+
+DATASET AND MODEL INFORMATION
+----------------------------------------
+Dataset: Houston2013
+Number of Classes: 15
+Training Samples per Class: 100
+Validation Samples per Class: 50
+Fold: 1
+Random Seed: 1
+Patch Size: 16
+Batch Size: 64
+Learning Rate: 0.001
+Total Epochs: 100
+Best Epoch: 83
+
+TRAINING STATISTICS
+----------------------------------------
+Training Samples: 1500
+Validation Samples: 750
+Test Samples: 12779
+Training Time: 189.78 seconds (3.16 minutes)
+
+PERFORMANCE METRICS
+----------------------------------------
+Best Validation Accuracy: 0.9973
+Test Accuracy at Best Validation: 0.9927
+Overall Accuracy (OA): 0.9901
+Kappa Coefficient: 0.9893
+Average Accuracy (AA): 0.9900
+
+CLASS-WISE ACCURACY
+----------------------------------------
+Class 1: 0.9900
+Class 2: 0.9982
+Class 3: 0.9963
+Class 4: 0.9954
+Class 5: 1.0000
+Class 6: 1.0000
+Class 7: 0.9848
+Class 8: 0.9899
+Class 9: 0.9628
+Class 10: 0.9898
+Class 11: 1.0000
+Class 12: 0.9898
+Class 13: 0.9530
+Class 14: 1.0000
+Class 15: 1.0000
+
+VALIDATION ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 0.0667
+Epoch 2: 0.1533
+Epoch 3: 0.4493
+Epoch 4: 0.5520
+Epoch 5: 0.5693
+...
+Epoch 96: 0.9907
+Epoch 97: 0.9813
+Epoch 98: 0.9880
+Epoch 99: 0.9947
+Epoch 100: 0.9907
+
+TEST ACCURACY HISTORY
+----------------------------------------
+Epoch 1: 0.0250
+Epoch 2: 0.1464
+Epoch 3: 0.4361
+Epoch 4: 0.5046
+Epoch 5: 0.5185
+...
+Epoch 96: 0.9897
+Epoch 97: 0.9617
+Epoch 98: 0.9863
+Epoch 99: 0.9865
+Epoch 100: 0.9866
+
+SUMMARY
+----------------------------------------
+Model trained successfully on Houston2013 dataset.
+Achieved 0.9973 validation accuracy and 0.9927 test accuracy.
+Overall performance: OA=0.9901, Kappa=0.9893, AA=0.9900
+Training completed in 3.16 minutes.
+
+================================================================================
+END OF REPORT
+================================================================================

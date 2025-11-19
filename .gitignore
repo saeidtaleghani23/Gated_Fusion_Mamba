@@ -1,0 +1,5 @@
+# Ignore all result files by pattern
+results/**/*.pkl
+results/**/*.mat
+results/**/*.pth
+results/**/*classification_map*
