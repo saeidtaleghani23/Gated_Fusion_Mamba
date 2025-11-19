@@ -1,0 +1,60 @@
+# config.yaml
+# Complete configuration file for MultiLayerFusionClassifier training
+
+# =============================================================================
+# TRAINING PARAMETERS
+# =============================================================================
+training:
+  gpu_id: "0"
+  seed: 1
+  epochs: 100
+  learning_rate: 0.003
+  dataset: "Muufl"  # Choices: ['Muufl', 'Trento', 'Houston']
+  num_classes: 15
+  batch_size: 32
+  patch_size: 32
+  training_mode: "one_time"  # Choices: ['one_time', 'ten_times']
+  train_samples: 100
+  val_samples: 50
+  fold: 1
+  eval_interval: 10
+
+# =============================================================================
+# MODEL ARCHITECTURE PARAMETERS
+# =============================================================================
+model:
+  num_layers: 3
+  use_downsampling: true
+  downsample_method: "conv"  # Choices: ['conv', 'pool']
+  layer_clusters: [50, 25, 15]
+  feature_dims: [64, 128, 256]
+  
+  # Mamba-specific parameters
+  mamba:
+    d_state: 16
+    d_conv: 4
+    expand: 2
+
+# =============================================================================
+# OPTIMIZER CONFIGURATION
+# =============================================================================
+optimizer:
+  type: "adam"  # Choices: ['adam', 'adamw', 'sgd']
+  weight_decay: 0.0001
+  momentum: 0.9  # Used for SGD optimizer
+
+# =============================================================================
+# LEARNING RATE SCHEDULER CONFIGURATION
+# =============================================================================
+scheduler:
+  type: "cosine"  # Choices: ['cosine', 'step', 'none']
+  step_size: 30   # For StepLR scheduler
+  gamma: 0.5      # For StepLR scheduler
+  warmup_epochs: 5  # For cosine scheduler with warmup
+
+# =============================================================================
+# LOSS FUNCTION CONFIGURATION
+# =============================================================================
+loss:
+  type: "cross_entropy"  # Choices: ['cross_entropy', 'focal']
+  label_smoothing: 0.0
